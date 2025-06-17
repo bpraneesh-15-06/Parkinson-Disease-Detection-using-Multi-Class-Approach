@@ -64,11 +64,10 @@ To develop a reliable ML-based diagnostic tool that identifies Parkinson’s Dis
 ## Impact
 
 - Showcases real-world application of ML in healthcare.
-- Demonstrates end-to-end understanding of:
+- Acquired end-to-end understanding of:
   - Supervised learning
   - Feature engineering
   - Data balancing (SMOTE)
   - Neural networks (FNN) and traditional ML (KNN)
-- Valuable addition to any ML, health AI, or data science portfolio.
 
 

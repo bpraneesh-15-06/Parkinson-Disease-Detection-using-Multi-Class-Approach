@@ -2,9 +2,13 @@
 
 This project implements a complete machine learning pipeline to detect Parkinson’s Disease based on vocal biomarkers. Using biomedical voice measurements from individuals with and without Parkinson’s, I have built, trained, and evaluated classification models to predict the presence of the disease.
 
+---
+
 ## Objective
 
 To develop a reliable ML-based diagnostic tool that identifies Parkinson’s Disease using voice data, demonstrating expertise in medical data preprocessing, feature selection, handling class imbalance, and supervised learning techniques.
+
+---
 
 ## Dataset
 
@@ -12,11 +16,15 @@ To develop a reliable ML-based diagnostic tool that identifies Parkinson’s Dis
 - Features: Frequency, jitter, shimmer, noise-to-harmonics ratio (NHR), etc.
 - Target: `status` (1 = Parkinson’s, 0 = Healthy)
 
+---
+
 ## Tech Stack
 
 - **Languages**: Python
 - **Libraries**: NumPy, Pandas, Scikit-Learn, imbalanced-learn, Keras (TensorFlow backend)
 - **Tools**: Google Colab, Matplotlib/Seaborn (for visualization)
+
+---
 
 ## ML Pipeline Steps
 
@@ -54,12 +62,16 @@ To develop a reliable ML-based diagnostic tool that identifies Parkinson’s Dis
 9. **Result Export**  
    - Saved processed data and results to CSV for downstream use.
 
+---
+
 ## Results Summary
 
 | Model | Accuracy | Precision | F1 Score |
 |-------|----------|-----------|----------|
 | KNN   | 0.8718   | 0.96154   | 0.9091   |
 | FNN   | 0.8974   | 0.9629    | 0.9286  |
+
+---
 
 ## Impact
 
